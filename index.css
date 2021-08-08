@@ -1,0 +1,190 @@
+	header{
+			background-color:#ff3333 ;
+			color: #000000 ;
+			text-align: center;
+			font-family: Lucida Handwriting;
+			font-size: 35px;
+			padding: 30px;
+      animation-name: example;
+      animation-duration: 4s;
+      }
+      @keyframes example {
+          0%   {background-color:#DF6D54;}
+         25%  {background-color: #212529;}
+         50%  {background-color: #008060;}
+        100% {background-color: #cca300;}
+                   }
+		ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #ff944d;
+}
+li.right{
+	float: right;
+}
+div.row1{
+  text-align: center;
+  color: black;
+  padding: 35px;
+  background-image: url('F:/EDU BRIDGE JFSD/Assignments/website/Images/food/food.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 44.4%;
+  clear: both;
+  display: table;
+  outline-style: solid;
+}
+div.column1{
+  float: left;
+  width: 50%
+}
+div.column15{
+  color: white;
+  float: left;
+  width: 50%
+}
+div.row2{
+  text-align: center;
+  color: black;
+  padding: 35px;
+  background-image: url('F:/EDU BRIDGE JFSD/Assignments/website/Images/career/game.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 44.4%;
+  clear: both;
+  display: table;
+  outline-style: solid;
+
+}
+div.column2{
+  color: white;
+  float: left;
+  width: 50%
+}
+div.column25{
+  color: white;
+  float: left;
+  width: 50%
+}
+div.row3{
+  text-align: center;
+  color: black;
+  padding: 35px;
+  background-image: url('F:/EDU BRIDGE JFSD/Assignments/website/Images/tech/nord2.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 44.4% 100%;
+  clear: both;
+  display: table;
+  outline-style: solid;
+
+}
+div.column3{
+  color: black;
+  float: left;
+  width: 50%
+}
+div.column35{
+  color: white;
+  float: left;
+  width: 50%
+}
+div.row4{
+  text-align: center;
+  color: black;
+  padding: 35px;
+  background-image: url('F:/EDU BRIDGE JFSD/Assignments/website/Images/travel/bhutan.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 44.5% 100%;
+  clear: both;
+  display: table;
+  outline-style: solid;
+
+}
+div.column4{
+  color: black;
+  float: left;
+  width: 50%
+}
+div.column45{
+  color: white;
+  float: left;
+  width: 50%
+}
+div.row5{
+  text-align: center;
+  color: black;
+  padding: 35px;
+  background-image: url('F:/EDU BRIDGE JFSD/Assignments/website/Images/fitness/workout.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 44.5% 100%;
+  clear: both;
+  display: table;
+  outline-style: solid;
+
+}
+div.column5{
+  color: black;
+  float: left;
+  width: 50%
+}
+div.column55{
+  color: white;
+  float: left;
+  width: 50%
+}
+#food{
+  text-align: center;
+  padding-top: 35px;
+}
+#career{
+  text-align: center;
+  padding-top: 35px;
+}
+#tech{
+  text-align: center;
+  padding-top: 35px;
+}
+#fitness{
+  text-align: center;
+  padding-top: 35px;
+}
+#travel{
+  text-align: center;
+  padding-top: 35px;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+}
+div.copyright-bar{
+  color: white;
+  background-color: #222;
+  outline-style: ridge;
+  outline-color: black;
+}

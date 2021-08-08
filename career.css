@@ -1,0 +1,195 @@
+	header{
+      background-color:#ff3333 ;
+      color: #000000 ;
+      text-align: center;
+      font-family: Lucida Handwriting;
+      font-size: 35px;
+      padding: 30px;
+      animation-name: example;
+      animation-duration: 4s;
+      }
+      @keyframes example {
+          0%   {background-color:#DF6D54;}
+         25%  {background-color: #212529;}
+         50%  {background-color: #008060;}
+        100% {background-color: #cca300;}
+                   }
+
+		ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #212529;
+}
+li.right{
+	float: right;
+}
+
+div.transa{
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.6);
+  font-family: 'Quicksand', sans-serif;
+  display: inline-table;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+div.transa > * {
+  transform: translateY(25px);
+  transition: transform 0.25s;
+}
+div.transa:hover>*{
+   transform: translateY(0px);
+}
+div.transa:hover{
+  opacity: 1;
+}
+
+div.row1{
+  position: relative;
+  text-align: center;
+  color: black;
+  padding: 35px;
+  clear: both;
+  display: table;
+  outline-style: solid;
+}
+div.column1{
+  outline-style: solid;
+  background-image: url('F:/EDU BRIDGE JFSD/Assignments/website/Images/career/game.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  width: 33.3%
+}
+
+div.column12{
+  outline-style: solid;
+  background-image: url('F:/EDU BRIDGE JFSD/Assignments/website/Images/career/gym.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  width: 33.3%
+}
+
+div.column13{
+  outline-style: solid;
+  background-image: url('F:/EDU BRIDGE JFSD/Assignments/website/Images/career/13.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  width: 33.3%
+}
+
+div.column2{
+  outline-style: solid;
+  background-image: url('F:/EDU BRIDGE JFSD/Assignments/website/Images/career/2.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  width: 33.3%
+}
+
+div.column22{
+  outline-style: solid;
+  background-image: url('F:/EDU BRIDGE JFSD/Assignments/website/Images/career/22.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  width: 33.3%
+}
+
+div.column23{
+  outline-style: solid;
+  background-image: url('F:/EDU BRIDGE JFSD/Assignments/website/Images/career/23.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  width: 33.3%
+}
+
+div.column3{
+  outline-style: solid;
+  background-image: url('F:/EDU BRIDGE JFSD/Assignments/website/Images/career/3.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  width: 33.3%
+}
+
+div.column32{
+  outline-style: solid;
+  background-image: url('F:/EDU BRIDGE JFSD/Assignments/website/Images/career/32.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  width: 33.3%
+}
+
+div.column33{
+  outline-style: solid;
+  background-image: url('F:/EDU BRIDGE JFSD/Assignments/website/Images/career/33.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  width: 33.3%
+}
+
+div.column4{
+  outline-style: solid;
+  background-image: url('F:/EDU BRIDGE JFSD/Assignments/website/Images/career/4.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  width: 33.3%
+}
+
+div.column42{
+  outline-style: solid;
+  background-image: url('F:/EDU BRIDGE JFSD/Assignments/website/Images/career/42.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  width: 33.3%
+}
+
+div.column43{
+  outline-style: solid;
+  background-image: url('F:/EDU BRIDGE JFSD/Assignments/website/Images/career/43.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  width: 33.3%
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+}
+div.copyright-bar{
+  color: white;
+  background-color: #222;
+  outline-style: ridge;
+  outline-color: black;
+}
